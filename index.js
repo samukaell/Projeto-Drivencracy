@@ -12,7 +12,7 @@ const app = express();
 app.use(json());
 app.use(cors());
 dotenv.config();
-//MONGO_URL=mongodb+srv://driven:123@cluster0.knymi.mongodb.net/Drivencracy?retryWrites=true&w=majority
+//
 //Routers
 app.use(pollRouter);
 app.use(choiceRouter);
